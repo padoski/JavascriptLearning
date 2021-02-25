@@ -28,7 +28,7 @@
         <h2>Challange 2</h2>
         <button class="btn btn-success" id="cat-gen-button" onclick="generateCat()"> Generate Cat</button>
         <div class="flex-box-container-2" id="flex-cat-gen">
-            <img src="https://api.thecatapi.com/api/images/get?format=src&type=gif&size=small" alt="">
+            <!---<img src="https://api.thecatapi.com/api/images/get?format=src&type=gif&size=small" alt=""> -->
         </div>
     </div>
 
@@ -38,6 +38,24 @@
             <img id="rock" src="img/rock.png" alt="" height="150px" width="150px" onclick="rpsGame(this)">
             <img id="paper" src="img/paper.png" alt="" height="150px" width="150px" onclick="rpsGame(this)">
             <img id="scissors" src="img/scissors.png" alt="" height="150px" width="150px" onclick="rpsGame(this)">
+        </div>
+    </div>
+
+    <div class="container-4">
+        <h2 id="change-my-color">Challange 4</h2>
+        <div class="flex-box-pick-color">
+            <form action="">
+                <select name="backdrop" id="background" onchange="buttonColorChange(this)">
+                    <option value="random">Random</option>
+                    <option value="red">Red</option>
+                    <option value="green">Green</option>
+                    <option value="reset">Reset</option>
+                </select>
+            </form>
+            <button class="btn btn-danger">yahooo</button>
+            <button class="btn btn-warning">google</button>
+            <button class="btn btn-success">facebook</button>
+            <button class="btn btn-primary">Padooosiak</button>
         </div>
     </div>
 
