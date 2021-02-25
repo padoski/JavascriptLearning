@@ -23,6 +23,7 @@
             <div id="flex-box-result"></div>
         </div>
     </div>
+
     <div class="container-2">
         <h2>Challange 2</h2>
         <button class="btn btn-success" id="cat-gen-button" onclick="generateCat()"> Generate Cat</button>
@@ -30,6 +31,16 @@
             <img src="https://api.thecatapi.com/api/images/get?format=src&type=gif&size=small" alt="">
         </div>
     </div>
+
+    <div class="container-3">
+        <h2>Challange 3</h2>
+        <div class="flex-box-rps" id="flex-box-rps-div">
+            <img id="rock" src="img/rock.png" alt="" height="150px" width="150px" onclick="rpsGame(this)">
+            <img id="paper" src="img/paper.png" alt="" height="150px" width="150px" onclick="rpsGame(this)">
+            <img id="scissors" src="img/scissors.png" alt="" height="150px" width="150px" onclick="rpsGame(this)">
+        </div>
+    </div>
+
     <script src="js/script.js"></script>
 </body>
 
